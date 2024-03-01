@@ -1,11 +1,11 @@
 # WEB102Un1Pro1
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Community Board*
 
-Submitted by: **Your Name Here**
+Submitted by: **Jonathan Tavarez**
 
-This web app: **insert description**
+This web app: **Is a good resources for learning top programing lenguages**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
