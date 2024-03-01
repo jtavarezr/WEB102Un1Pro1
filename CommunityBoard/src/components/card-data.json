@@ -1,0 +1,92 @@
+[
+  {
+    "title": "JavaScript",
+    "logo": "https://quintagroup.com/cms/js/js-image/javascript-logo.png",
+    "description": "The world's most popular programming language",
+    "documentation": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+  },
+  {
+    "title": "Python",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+    "description": "A powerful interpreted language with simple syntax",
+    "documentation": "https://docs.python.org/3/"
+  },
+  {
+    "title": "Java",
+    "logo": "https://pbaumgarten.com/java/img/java-logo.jpg",
+    "description": "A widely-used object-oriented programming language",
+    "documentation": "https://docs.oracle.com/en/java/"
+  },
+  {
+    "title": "C++",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/512px-ISO_C%2B%2B_Logo.svg.png",
+    "description": "A powerful and efficient general-purpose programming language",
+    "documentation": "https://en.cppreference.com/w/"
+  },
+  {
+    "title": "C#",
+    "logo": "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png",
+    "description": "A versatile programming language developed by Microsoft",
+    "documentation": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+  },
+  {
+    "title": "PHP",
+    "logo": "https://www.php.net/images/logos/new-php-logo.svg",
+    "description": "A server-side scripting language for web development",
+    "documentation": "https://www.php.net/docs.php"
+  },
+  {
+    "title": "Ruby",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png",
+    "description": "A dynamic, reflective, object-oriented language",
+    "documentation": "https://www.ruby-lang.org/en/documentation/"
+  },
+  {
+    "title": "Swift",
+    "logo": "https://developer.apple.com/assets/elements/icons/swift/swift-64x64.png",
+    "description": "A powerful and intuitive programming language for iOS, macOS, watchOS, and tvOS",
+    "documentation": "https://developer.apple.com/documentation/swift"
+  },
+  {
+    "title": "Go",
+    "logo": "https://blog.golang.org/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg",
+    "description": "An open-source programming language that makes it easy to build simple, reliable, and efficient software",
+    "documentation": "https://golang.org/doc/"
+  },
+  {
+    "title": "TypeScript",
+    "logo": "https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png",
+    "description": "A superset of JavaScript that adds static types to the language",
+    "documentation": "https://www.typescriptlang.org/docs/"
+  },
+  {
+    "title": "React",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+    "description": "A JavaScript library for building user interfaces",
+    "documentation": "https://reactjs.org/docs/getting-started.html"
+  },
+  {
+    "title": "Spring Boot",
+    "logo": "https://bgasparotto.com/wp-content/uploads/2017/12/spring-boot-logo.png",
+    "description": "A framework for creating production-ready enterprise Java applications",
+    "documentation": "https://docs.spring.io/spring-boot/docs/current/reference/html/"
+  },
+  {
+    "title": "Angular",
+    "logo": "https://angular.io/assets/images/logos/angular/angular.svg",
+    "description": "A platform and language framework for building scalable, progressive web applications",
+    "documentation": "https://angular.io/docs"
+  },
+  {
+    "title": "Vue.js",
+    "logo": "https://vuejs.org/images/logo.png",
+    "description": "A progressive framework for building user interfaces",
+    "documentation": "https://vuejs.org/v2/guide/"
+  },
+  {
+    "title": "Express.js",
+    "logo": "https://expressjs.com/images/express-facebook-share.png",
+    "description": "A Node.js framework for building web applications and APIs",
+    "documentation": "https://expressjs.com/en/starter/installing.html"
+  }
+]

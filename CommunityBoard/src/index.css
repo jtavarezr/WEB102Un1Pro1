@@ -1,0 +1,158 @@
+
+/* Setup */
+body {
+  background-color: var(--var-main-darkest);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  /* Centrar el contenido del encabezado */
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* Centrar los enlaces del menú */
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header h1 {
+  color: white;
+  font-size: 36px;
+}
+
+/* Typography */
+h1 {
+  font: var(--var-heading);
+  color: var(--var-lightest);
+  padding: 1.2em 0;
+}
+
+h2 {
+  font: var(--var-small-heading);
+  color: var(--var-lightest);
+}
+
+p {
+  font: var(--var-para);
+  color: var(--var-soft-blue);
+}
+
+/* Game Card */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(50% - 20px);
+  /* Tamaño de 50% para dos tarjetas por fila */
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .game-card {
+    width: calc(33.33% - 20px);
+    /* Tamaño de 33.33% para tres tarjetas por fila en pantallas medianas */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .game-card {
+    width: calc(25% - 20px);
+    /* Tamaño de 25% para cuatro tarjetas por fila en pantallas grandes */
+  }
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+  max-height: 30;
+  /* Ajustar la altura automáticamente para mantener la proporción de la imagen */
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Button */
+.card-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-align: center;
+  border-radius: 4px;
+ 
+  
+}
+
+
+
+/* 
+========================
+Variables
+========================
+*/
+:root {
+  font-size: 15px;
+  /* Primary */
+  --var-soft-blue: hsl(215, 51%, 70%);
+  --var-cyan: hsl(178, 100%, 50%);
+  /* Neutral */
+  --var-main-darkest: hsl(217, 54%, 11%);
+  --var-card-dark: hsl(216, 50%, 16%);
+  --var-line-dark: hsl(215, 32%, 27%);
+  --var-lightest: white;
+
+  /* Fonts */
+  --var-heading: normal normal 600 1.5em/1.6em 'Outfit', sans-serif;
+  --var-small-heading: normal normal 400 1em/1em 'Outfit', sans-serif;
+  --var-para: normal normal 300 1em/1.55em 'Outfit', sans-serif;
+}
+
